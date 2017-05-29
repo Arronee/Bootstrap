@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>第一节</title>
+    <title>bootstrap响应式布局基础</title>
 
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -11,21 +11,85 @@
 
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
     <div class="row">
-        <div class="col-md-1 col-xs-1">.col-md-1</div>
-        <div class="col-md-1 col-xs-1">.col-md-1</div>
-        <div class="col-md-1 col-xs-1">.col-md-1</div>
-        <div class="col-md-1 col-xs-1">.col-md-1</div>
-        <div class="col-md-1 col-xs-1">.col-md-1</div>
-        <div class="col-md-1 col-xs-1">.col-md-1</div>
-        <div class="col-md-1 col-xs-1">.col-md-1</div>
-        <div class="col-md-1 col-xs-1">.col-md-1</div>
-        <div class="col-md-1 col-xs-1">.col-md-1</div>
-        <div class="col-md-1 col-xs-1">.col-md-1</div>
-        <div class="col-md-1 col-xs-1">.col-md-1</div>
-        <div class="col-md-1 col-xs-1">.col-md-1</div>
+        <div class="col-lg-1 col-md-1 col-xs-1">.col-md-1</div>
+        <div class="col-lg-1 col-md-1 col-xs-1"></div>
+        <div class="col-lg-1 col-md-1 col-xs-1"></div>
+        <div class="col-lg-1 col-md-1 col-xs-1">.col-md-1</div>
+        <div class="col-lg-1 col-md-1 col-xs-1">.col-md-1</div>
+        <div class="col-lg-1 col-md-1 col-xs-1">.col-md-1</div>
+        <div class="col-lg-1 col-md-1 col-xs-1">.col-md-1</div>
+        <div class="col-lg-1 col-md-1 col-xs-1">.col-md-1</div>
+        <div class="col-lg-1 col-md-1 col-xs-1">.col-md-1</div>
+        <div class="col-lg-1 col-md-1 col-xs-1">.col-md-1</div>
+        <div class="col-lg-1 col-md-1 col-xs-1">.col-md-1</div>
+        <div class="col-lg-1 col-md-1 col-xs-1">.col-md-1</div>
     </div>
+
+
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+        <div class="col-lg-8 col-md-8" style="background-color: #4cae4c">.col-xs-12 .col-md-8</div>
+        <div class="col-lg-6 col-md-4" style="background-color: #00b3ee">.col-xs-6 .col-md-4</div>
+    </div>
+
+    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+    <div class="row">
+        <div class="col-xs-6 col-md-4" style="background-color: #4cae4c">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4" style="background-color: #00b3ee">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4" style="background-color: #3e8f3e">.col-xs-6 .col-md-4</div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-8">.col-xs-12 .col-sm-6 .col-md-8</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-6 col-sm-3" style="background-color: #3e8f3e">.col-xs-6 .col-sm-3</div>
+        <div class="col-xs-6 col-sm-3" style="background-color: #00b3ee">.col-xs-6 .col-sm-3</div>
+
+        <!-- Add the extra clearfix for only the required viewport -->
+        <!--<div class="clearfix visible-xs-block" style="background-color: #8a6d3b"></div>-->
+
+        <div class="col-xs-6 col-sm-3" style="background-color: #2aabd2">.col-xs-6 .col-sm-3</div>
+        <div class="col-xs-6 col-sm-3" style="background-color: #5bc0de">.col-xs-6 .col-sm-3</div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-sm-5 col-md-6" style="background-color: red">.col-sm-5 .col-md-6</div>
+        <div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0" style="background-color: yellow">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8 col-sm-8" style="background-color: #2aabd2">col-lg-8
+            <div class="row">
+                <div class="col-lg-6 col-sm-6" style="background-color: #7a43b6">
+                    col-lg-6
+                </div>
+                <div class="col-lg-6 col-sm-6" style="background-color: red">
+                    col-lg-6
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-lg-2 col-lg-push-2" style="background-color: #7a43b6">这是第一个</div>
+        <div class="col-lg-2"></div>
+
+        <div class="col-lg-2 col-lg-pull-4 col-lg-offset-4" style="background-color: #2aabd2">这是第二个</div>
+    </div>
+
 
 </div>
 
