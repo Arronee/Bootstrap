@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f8ae539-ab7d-484f-813f-34f76cf66d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/L3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/L2.html" afterPath="$PROJECT_DIR$/src/L2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/L3.html" afterPath="$PROJECT_DIR$/src/L3.html" />
     </list>
     <ignored path="Bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,11 +71,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="L3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="L3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/L3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="172">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="4238" column="16" selection-start-line="4238" selection-start-column="4" selection-end-line="4238" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -104,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/L1.html" />
         <option value="$PROJECT_DIR$/src/L2.html" />
         <option value="$PROJECT_DIR$/src/L3.html" />
+        <option value="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css" />
       </list>
     </option>
   </component>
@@ -636,12 +647,12 @@
       <workItem from="1495793938878" duration="706000" />
       <workItem from="1495810455773" duration="2634000" />
       <workItem from="1495852035555" duration="6728000" />
-      <workItem from="1496064985542" duration="3082000" />
+      <workItem from="1496064985542" duration="5151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15268000" />
+    <option name="totallyTimeSpent" value="17337000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -849,14 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="4" column="21998" selection-start-line="4" selection-start-column="21998" selection-end-line="4" selection-end-column="21998" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/L1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -892,8 +895,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/L3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="172">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="4238" column="16" selection-start-line="4238" selection-start-column="4" selection-end-line="4238" selection-end-column="16" />
           <folding />
         </state>
       </provider>
